@@ -2,14 +2,14 @@ package testpackage;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class testclass {
 
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","D:\\Pandu\\Selenium\\chromedriver.exe");
 		ChromeDriver driver= new ChromeDriver();
-		Thread.sleep(5000);
-		driver.get("https://www.google.co.in/"); 
+		driver.get("https://www.google.com");
 		Thread.sleep(5000);
 		driver.close();
 
