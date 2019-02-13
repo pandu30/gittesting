@@ -1,0 +1,20 @@
+package pandu;
+
+public class Example1
+{
+	public int x;
+	public double y;
+	public char z;
+	public boolean w;
+	public String s;
+	
+	
+	public Example1()
+	{
+		y= 23.5;
+		s="kalam";
+		
+		
+	}
+	
+}
